@@ -1,0 +1,105 @@
+/*------SETUP------*/
+body{
+    position: relative;
+	background-image: url(photos.html/photo02.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 150%;
+    background-attachment: fixed;
+    /*background-color: seashell;*/
+    /*可选颜色代码：azure\cornsilk\floralwhite\ghostwhite\honeydew\ivory\lemonchiffon\seashell\white\*/
+}
+/*------CONTAINER------*/
+.container1 {
+  width: 920px;
+  margin:0 auto;
+}
+/*------LIST------*/
+.container1 ul {
+  list-style-type: none;
+}
+
+.container1 li {
+  float: left;
+  position: relative;
+  width: 280px;
+  height: 187px;
+  overflow: hidden;
+}
+
+.container1 li:hover {
+
+  cursor: pointer;
+}
+
+/*------PARAGRAPH------*/
+.container1 li p {
+  position: absolute;
+  color:#CCCCCC;
+  font: 400 30px/187px 'Arvo', Helvetica, Arial, sans-serif;
+  background: transparent;
+  width: 280px;
+  height: 187px;
+  top: -3px;
+  left: 1px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.container1 li:hover p {
+  color: white;
+  margin:auto;
+  z-index: 1;
+}
+
+/*------IMAGES------*/
+.container1 img {
+  width: 280px;
+  height: 187px;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.container1 li:hover img {
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(0.501, 1);
+  -o-transform: scale(0.501, 1);
+  z-index: -3;
+}
+
+/*------MEDIA QUERIES------*/
+@media screen and (max-width: 1120px) {
+    .container1 {
+    width: 840px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+    .container1 {
+    width: 560px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+    .container1 {
+    width: 280px;
+  }
+}
+
+.STYLE3 {background-attachment: fixed; background-position: center; text-align: center; text-decoration: none; text-transform: capitalize;color:#000000; font-family: Arial, Helvetica, sans-serif; font-size: xx-large; }
+.STYLE4 {font-size: x-large}
+a:link,a:visited
+{
+display:block;
+margin:0 auto;
+font-weight:bold;
+font-size:18px;
+font-family: "Times New Roman", Times, serif;
+color: #003333;
+width:120px;
+text-align:center;
+padding:4px;
+text-decoration:none;
+}

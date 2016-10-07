@@ -1,0 +1,33 @@
+/* CSS Document */
+body{
+    position: relative;
+    color: #444;
+	background:url(photos.html/background02.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 150%;
+    background-attachment: fixed;
+    /*background-color: seashell;*/
+    /*可选颜色代码：azure\cornsilk\floralwhite\ghostwhite\honeydew\ivory\lemonchiffon\seashell\white\*/
+}
+/*手机版*/
+
+@media screen and (max-width:766px) {
+    body {
+     background-image: url(photos.html/yellow.jpg);   
+	 background-attachment: fixed;
+	 background-repeat: no-repeat;
+     background-size: 100% 150%;
+  
+    }
+}
+
+
+/*ipad版*/
+
+@media screen and (min-width:767px) and (max-width:1365px) {
+    body {
+        background-size: 1366px 150%;
+	    background-attachment: fixed;
+    }
+   
+}

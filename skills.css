@@ -1,0 +1,53 @@
+/* CSS Document */
+body{
+    position: relative;
+    color: #444;
+	background-image:url(photos.html/skill2.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% 150%;
+    background-attachment: fixed;
+    /*background-color: seashell;*/
+    /*可选颜色代码：azure\cornsilk\floralwhite\ghostwhite\honeydew\ivory\lemonchiffon\seashell\white\*/
+}
+@media screen and (max-width:766px) {
+    body {
+     background-image: url(photos.html/photo-mobile.jpg);   
+	 background-attachment: fixed;
+	 background-repeat: no-repeat;
+     background-size: 100% 150%;
+  
+    }
+}
+
+.STYLE2 {color: #003333}
+.STYLE4 {color: #003366}
+
+a:link,a:visited
+{
+display:block;
+margin:0 auto;
+font-weight:bold;
+font-size:21px;
+font-family: "Times New Roman", Times, serif;
+color:#CC9999;
+width:120px;
+text-align:center;
+padding:1px;
+text-decoration:none;
+}
+
+h1{
+color: #474747;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+font-style: normal;
+font-size: xx-large;
+text-align:center;
+}
+h2{
+color: #818141;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+font-style: normal;
+font-size:larger;
+text-align:center;
+}
+
